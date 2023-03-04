@@ -17,6 +17,9 @@
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' />
 
   <!-- Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
@@ -32,11 +35,11 @@
 <section class="container-header-1 ">
      
     <!-- Navbar start-->
-     <nav  class="navbar navbar-expand-lg navbar-light bg-light nav-one">
+     <nav  class="navbar navbar-expand-lg bg-dark text-white nav-one">
       <div class="container-sm">
     <!-- Navbar logo -->
-        <div  id="headerOne_LogoDiv" onclick="">
-        <img id="headerOne_SubLogoImage" class="navbar-brand1 img-fluid"  src="./header-1-images/logo-design-01.png" alt="Image">
+        <div  id="header_LogoDiv" onclick="">
+        <img id="header_SubLogoImage" class="navbar-brand1 img-fluid"  src="./images/neadlesack.png" alt="Image">
         </div>
     
      <!-- Toggle button mobile view start -->
@@ -44,8 +47,8 @@
                 class="navbar-toggler navbar-toggler1 toggler-icon-style-h1"
                 type="button"
                 data-mdb-toggle="collapse"
-                data-mdb-target="#headerOne_ColSpaceDiv"
-                aria-controls="headerOne_ColSpaceDiv"
+                data-mdb-target="#header_ColSpaceDiv"
+                aria-controls="header_ColSpaceDiv"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
         >
@@ -54,52 +57,24 @@
        <!-- Toggle button mobile view end-->
 
        <!-- left links start-->
-        <div class="collapse navbar-collapse navbar-collapse1" id="headerOne_ColSpaceDiv">    
-        <div class="navbar-nav ms-auto me-3 mb-2 mb-lg-0" id="headerOne_UnOderList_1">
+        <div class="collapse navbar-collapse navbar-collapse1" id="header_ColSpaceDiv">    
+        <div class="navbar-nav ms-auto me-3 mb-2 mb-lg-0" id="header_UnOderList_1">
             
-        <!-- dropdown link -->
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link nav-link1 dropdown-toggle-1"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-mdb-toggle="dropdown"
-            aria-haspopup="true" 
-            aria-expanded="true">
-            <p class="p-header-1 pt-4 pt-lg-0">Templates <i class="fas fa-angle-down"></i>&nbsp;</p>
-      
-          </a>
-          
-         <!-- Dropdown menu -->
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li>
-              <a class="dropdown-item dropdown-item" href="#"><p class="p-header-1">Action</p></a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"><p class="p-header-1">Another action</p></a>
-            </li>
-            <li><hr class="dropdown-divider" /></li>
-            <li>
-              <a class="dropdown-item" href="#"><p class="p-header-1">Something else here</p></a>
-            </li>
-          </ul>
-         </li>
          
-         <!-- <blog> -->
-            <li id="headerOne_NavLink_2 " class="nav-item " onclick="">
-              <a id="headerOne_SubNavLink_2" class="nav-link nav-link1 nav-one-link active " aria-current="page" href="#" ><p class="p-header-1">Blog</p></a>
+         <!-- <games> -->
+            <li id="header_NavLink_2 " class="nav-item " onclick="">
+              <a id="header_SubNavLink_2" class="nav-link nav-link1 nav-one-link active " aria-current="page" href="gamelist" ><p class="p-header-1 me-3">Games</p></a>
             </li>
 
          <!-- <pricing> -->
-            <li id="headerOne_NavLink_3 " class="nav-item" onclick="">
-              <a id="headerOne_SubNavLink_3" class="nav-link nav-link1 nav-one-link active" href="#" ><p class="p-header-1">Pricing</p></a>
+            <li id="header_NavLink_3 " class="nav-item" onclick="">
+              <a id="header_SubNavLink_3" class="nav-link nav-link1 nav-one-link active" href="#" ><p class="p-header-1 me-3">Pricing</p></a>
             </li>
 
          <!-- button -->
             <li >
                <div class="col-sm-12 d-flex justify-content-center">
-                    <button id="headerOne_Button_1" href="#"  type="button" class="btn btn-primary  btn-style-h1 ">
+                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style-h1 ">
                     Start Free</button>   
                </div>    
             </li>
@@ -174,39 +149,45 @@
 </section>
 <!-- home section end -->
 
+
 <!-- card section start -->
 <section class="gameList container-sm my-5">
+  <h2>Games</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="card">
-      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          This is a longer card with supporting text below as a natural lead-in to
-          additional content. This content is a little bit longer.
-        </p>
-      </div>
+    <div class="card text-center">
+      <img src="images/RTR-icon.png" class="mx-auto card-img-top img-fluid pt-2" alt="Hollywood Sign on The Hill"/>
+      <div class="card-body ">
+        <h5 class="card-title text-center">NEEDLESACK</h5>
+        <div class="d-flex justify-content-center">
+                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style-h1 ">
+                    Play Now</button>  
+                    </div>
+        </div> 
     </div>
   </div>
   <div class="col">
-    <div class="card">
-      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Palm Springs Road"/>
+    <div class="card text-center">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="mx-auto card-img-top img-fluid pt-2" alt="Palm Springs Road"/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          This is a longer card with supporting text below as a natural lead-in to
-          additional content. This content is a little bit longer.
-        </p>
+        <div class="d-flex justify-content-center">
+                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style-h1 ">
+                    Play Now</button>  
+                    </div>
+        </div> 
       </div>
     </div>
-  </div>
   <div class="col">
-    <div class="card">
-      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+    <div class="card text-center">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="mx-auto card-img-top img-fluid pt-2" alt="Los Angeles Skyscrapers"/>
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <div class="d-flex justify-content-center">
+                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style-h1 ">
+                    Play Now</button>  
+                    </div>
+        </div> 
       </div>
     </div>
   </div>
@@ -217,124 +198,50 @@
 
 
 <!-- Footer section start -->
-<section class="footer-section my-5">
-<footer class="text-center text-lg-start bg-light text-muted">
-  <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
+<section class="footer-section">
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
 
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
 
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <!-- Grid column -->
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
 
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Laravel</a>
-          </p>
-        </div>
-        <!-- Grid column -->
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
 
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
-        </div>
-        <!-- Grid column -->
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
 
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
-    </div>
-  </section>
-  <!-- Section: Links  -->
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
   </div>
   <!-- Copyright -->
 </footer>

@@ -1,9 +1,61 @@
+body{
+    background-color: black !important;
+}
+
+/* header style */
+.navbar-brand1{
+    width: 90px;
+    height: 35px;
+}
+.p-header-1{
+    margin-bottom: 0px !important;
+}
+
+/* home style */
 h1{
     color: rgb(39, 13, 152);
-    font-style:serif !important;
+    /* font-style:serif !important; */
+    font-family: 'Koulen', cursive !important;
+    font-size: 70PX !important;
     font-weight: bolder;
     padding-bottom: 10%;
 }
+.btn-style-h1{
+    border: 2px solid blue !important;
+    color: black !important;
+    font-weight: bolder !important;
+    border-radius: 50px !important;
+    background-color: white !important;
+}
+.btn-style-h1:hover{
+   background-color: blue !important;
+   align-items: center !important;
+}
+
+/* card style */
+.card{
+background-color: rgba(183, 178, 178, 0.499);
+margin-top: 10px !important;
+padding-top: 10px !important;
+}
+.card-title{
+    color: black !important;
+}
+.card-img-top{
+    border-radius: 50% !important;
+    width: 300px !important;
+    height: 300px !important;
+     transition: transform 0.1s ease-in-out 0s;
+}
+.card-img-top:hover{
+    transform: scale(1.08);
+    opacity: 0.7;
+}
+.btn-card{
+    align-items: center !important;
+}
+
+/* footer style */
 .footer-section{
     background-color: rgba(1, 1, 1, 0.705) !important;
 }
