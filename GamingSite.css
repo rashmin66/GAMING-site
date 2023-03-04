@@ -69,3 +69,25 @@ padding-top: 10px !important;
 .footer-section{
     background-color: rgba(1, 1, 1, 0.705) !important;
 }
+ .btn-floating:hover{
+    background-color: black !important;
+ }
+
+
+
+@media screen and (max-width: 991px) {
+    .card-img-top{
+    width: 200px !important;
+    height: 200px !important;
+}
+}
+@media screen and (max-width: 768px) {
+  h1{
+    font-size: 50PX !important;
+    padding-bottom: 2%;
+}
+.card-img-top{
+    width: 300px !important;
+    height: 300px !important;
+}
+}
