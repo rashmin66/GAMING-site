@@ -8,12 +8,18 @@ body {
   background-color: var(--gray);
 }
 .navbar-brand1 {
-  width: 90px;
-  height: 35px;
+  width: 110px;
+  height: 60px;
+}
+.toggler-icon-style{
+  color: var(--white) !important;
 }
 .p-header-1 {
   margin-bottom: 0px !important;
-   color: var(--white) !important;
+  color: var(--white) !important;
+}
+.p-header-1:hover{
+  color: var(--lightgray)!important;
 }
 
 /* home style */
@@ -30,41 +36,27 @@ h2 {
 h3 {
   font-family: 'Climate Crisis', cursive;
 }
-.btn-style-h1 {
+.btn-style{
   border: 2px var(--black) !important;
   color: var(--black) !important;
   font-weight: bolder !important;
   border-radius: 50px !important;
   background-color: var(--white) !important;
 }
-.btn-style-h1:hover {
-  background-color: var(--black) !important;
+.btn-style:hover {
+  background-color: var(--lightgray) !important;
   color: var(--white) !important;
   align-items: center !important;
 }
 
 /* vedio */
-.vedio-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
 
 
 
 /* card style */
 .card {
-  background-color: var(--gray);
+  background-color: var(--gray) !important;
   margin-top: 10px !important;
   padding-top: 10px !important;
 }
@@ -99,7 +91,8 @@ h3 {
   background-color: var(--gray) !important;
 }
 .btn-floating:hover {
-  background-color: var(--black) !important;
+  background-color: var(--lightgray) !important;
+
 }
 
 @media screen and (max-width: 991px) {
@@ -107,7 +100,10 @@ h3 {
     width: 200px !important;
     height: 200px !important;
   }
-}
+   h1{
+   text-align: center;
+   } 
+  }
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 50px !important;
@@ -135,4 +131,5 @@ h3 {
   --black: #000000;
   --gray: #121212;
   --white: #ffffff;
+  --lightgray:rgb(116, 113, 113);
 }
