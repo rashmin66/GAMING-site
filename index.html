@@ -5,9 +5,6 @@
   <!-- MDB -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet" />
 
-  <!-- <globel style sheet> -->
-  <link rel="stylesheet" href="./global-styles.css" />
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -24,6 +21,11 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
 
+  <!-- animate.css -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
  <!-- <custom style sheet> -->
   <link rel="stylesheet" type="text/css" href="GamingSite.css"/>
 
@@ -39,12 +41,12 @@
       <div class="container-sm">
     <!-- Navbar logo -->
         <div  id="header_LogoDiv" onclick="">
-        <img id="header_SubLogoImage" class="navbar-brand1 img-fluid"  src="./images/neadlesack.png" alt="Image">
+        <img id="header_SubLogoImage" class="navbar-brand1 img-fluid"  src="./images/Neadlesack1.png" alt="Image">
         </div>
     
      <!-- Toggle button mobile view start -->
         <button
-                class="navbar-toggler navbar-toggler1 toggler-icon-style-h1"
+                class="navbar-toggler navbar-toggler1 toggler-icon-style"
                 type="button"
                 data-mdb-toggle="collapse"
                 data-mdb-target="#header_ColSpaceDiv"
@@ -63,7 +65,7 @@
          
          <!-- <games> -->
             <li id="header_NavLink_2 " class="nav-item " onclick="">
-              <a id="header_SubNavLink_2" class="nav-link nav-link1 nav-one-link active " aria-current="page" href="gamelist" ><p class="p-header-1 me-3">Games</p></a>
+              <a id="header_SubNavLink_2" class="nav-link nav-link1 nav-one-link active " aria-current="page" href="#" ><p class="p-header-1 me-3">Games</p></a>
             </li>
 
          <!-- <pricing> -->
@@ -74,8 +76,8 @@
          <!-- button -->
             <li >
                <div class="col-sm-12 d-flex justify-content-center">
-                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style-h1 ">
-                    Start Free</button>   
+                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style ">
+                    Start</button>   
                </div>    
             </li>
       
@@ -91,65 +93,38 @@
 
 
 <!-- home section start -->
-<section class="container-sm my-5">
+<section class="container-sm my-5 ">
   <div class="row">
   <div class="col-lg-6">
-    <h3 class="text-white">Welcome to</h3>
-     <h1>NEEDLESACK</h1>
-    <p class="p-para-1 text-white">Video Games paragraph 
-      A video game is an electronic game which involves a human interaction with a user interface, which would generate a visual feedback onto a video device. The electronic systems that are used to play the games are known as platforms and
- it could range from small hand held devices to large mainframe computers.</p>
+    <h3 class="text-white"></h3>
+     <h1 class="animate__animated animate__tada">Welcome to</h1>
+    <p class="p-para-1 text-white">We are the creators of real tuk racing and welcome you to our site. we are here to revolutioned the world.</p>
   </div>
   <!-- image slider start -->
   <div class="col-lg-6">
-<div id="carouselExampleCrossfade" class="carousel slide carousel-fade" data-mdb-ride="carousel">
-  <div class="carousel-indicators">
-    <button
-      type="button"
-      data-mdb-target="#carouselExampleCrossfade"
-      data-mdb-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselExampleCrossfade"
-      data-mdb-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselExampleCrossfade"
-      data-mdb-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape"/>
-    </div>
-    <div class="carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
-    </div>
-    <div class="carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCrossfade" data-mdb-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCrossfade" data-mdb-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div> <!-- image slider end  -->
+    <div id="intro-video-container">
+      <video autoplay loop muted>
+    <source src="videos/intro.mp4" type="video/mp4">
+  
+      </video>
+     </div>
+   
+
   </div>
 </section>
 <!-- home section end -->
 
+<!-- vedio section start -->
+<div class="vedio-container container-sm my-5">
+<div class="ratio ratio-16x9">
+  <video autoplay loop muted>
+    <source src="videos/game-intro.mp4" type="video/mp4">
+  
+      </video>
+  <!-- <iframe src="https://www.youtube.com/embed/148Byz38_jM" title="YouTube video" allowfullscreen></iframe> -->
+</div>
+</div>
+<!-- vedio section end -->
 
 <!-- card section start -->
 <section class="gameList container-sm my-5">
@@ -159,38 +134,65 @@
     <div class="card text-center">
       <img src="images/RTR-icon.png" class="mx-auto card-img-top img-fluid pt-2" alt="Hollywood Sign on The Hill"/>
       <div class="card-body ">
-        <h5 class="card-title text-center">NEEDLESACK</h5>
+        <h5 class="card-title text-center text-light">Real Tuk Racing</h5>
         <div class="d-flex justify-content-center">
-                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style-h1 ">
-                    Play Now</button>  
-                    </div>
+          <div class="row">
+            <div class="col-lg-6">
+                     <a href="https://play.google.com/store/apps/details?id=com.NeedleSack.RealTukRacing&hl=en&gl=US">
+                     <img class="playstore-icon" src="https://icon-library.com/images/google-play-store-icon/google-play-store-icon-3.jpg" alt="Image description">
+                     </a>
+            </div>
+            <div class="col-lg-6">     
+                    <button id="header_Button_1" onclick="window.location.href='https://needlesack.art/real-tuk-racing/';"  type="button" class="btn btn-primary  btn-style ">
+                    Play Now</button>
+            </div> 
+          </div>
+          </div>
         </div> 
     </div>
   </div>
   <div class="col">
-    <div class="card text-center">
+    <!-- <div class="card text-center">
       <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="mx-auto card-img-top img-fluid pt-2" alt="Palm Springs Road"/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Title</h5>
         <div class="d-flex justify-content-center">
-                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style-h1 ">
-                    Play Now</button>  
-                    </div>
+            <div class="row">
+            <div class="col-lg-6">
+                     <a href="#">
+                     <img class="playstore-icon" src="https://icon-library.com/images/google-play-store-icon/google-play-store-icon-3.jpg" alt="Image description">
+                     </a>
+            </div>
+            <div class="col-lg-6">     
+                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style ">
+                    Play Now</button>
+            </div> 
+          </div>        
+        </div>
         </div> 
       </div>
-    </div>
+    </div> -->
   <div class="col">
-    <div class="card text-center">
+    <!-- <div class="card text-center">
       <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="mx-auto card-img-top img-fluid pt-2" alt="Los Angeles Skyscrapers"/>
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Title</h5>
         <div class="d-flex justify-content-center">
-                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style-h1 ">
-                    Play Now</button>  
-                    </div>
+            <div class="row">
+             <div class="col-lg-6">
+                     <a href="#">
+                     <img class="playstore-icon" src="https://icon-library.com/images/google-play-store-icon/google-play-store-icon-3.jpg" alt="Image description">
+                     </a>
+            </div>
+            <div class="col-lg-6">     
+                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style">
+                    Play Now</button>
+            </div> 
+          </div>     
+          </div>
         </div> 
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -200,7 +202,7 @@
 
 <!-- Footer section start -->
 <section class="footer-section">
-<footer class="bg-dark text-center text-white">
+<footer class=" text-center text-white">
   <!-- Grid container -->
   <div class="container p-4 pb-0">
     <!-- Section: Social media -->
@@ -252,8 +254,6 @@
 
 <!-- scripts -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
-<script src="header-1.js"></script>   
-
 </body>
 
 </html>
