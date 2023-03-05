@@ -103,6 +103,9 @@ h3 {
    h1{
    text-align: center;
    } 
+   .p-para-1{
+    text-align: center;
+   }
   }
 @media screen and (max-width: 768px) {
   h1 {
