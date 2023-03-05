@@ -17,7 +17,7 @@ body {
 
 /* home style */
 h1 {
-  color: blue !important;
+  color: var(--white) !important;
   font-family: 'Koulen', cursive !important;
   font-size: 70px !important;
   font-weight: bolder;
@@ -34,11 +34,11 @@ h3 {
   color: var(--black) !important;
   font-weight: bolder !important;
   border-radius: 50px !important;
-  background-color: blue !important;
+  background-color: var(--white) !important;
 }
 .btn-style-h1:hover {
   background-color: var(--black) !important;
-  color: white !important;
+  color: var(--white) !important;
   align-items: center !important;
 }
 
@@ -105,4 +105,5 @@ h3 {
 :root {
   --black: #000000;
   --gray: #121212;
+  --white: #ffffff;
 }
