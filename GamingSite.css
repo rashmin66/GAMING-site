@@ -11,15 +11,15 @@ body {
   width: 110px;
   height: 60px;
 }
-.toggler-icon-style{
+.toggler-icon-style {
   color: var(--white) !important;
 }
 .p-header-1 {
   margin-bottom: 0px !important;
   color: var(--white) !important;
 }
-.p-header-1:hover{
-  color: var(--lightgray)!important;
+.p-header-1:hover {
+  color: var(--lightgray) !important;
 }
 
 /* home style */
@@ -36,7 +36,7 @@ h2 {
 h3 {
   font-family: 'Climate Crisis', cursive;
 }
-.btn-style{
+.btn-style {
   border: 2px var(--black) !important;
   color: var(--black) !important;
   font-weight: bolder !important;
@@ -54,21 +54,20 @@ h3 {
 /* vedio */
 
 /* leader board */
-.table-leaderboard{
+.table-leaderboard {
   color: #ffffff !important;
 }
-table{
+table {
   color: #a50b0b !important;
   border-color: #a50b0b !important;
 }
-th{
+th {
   background-color: #a50b0b !important;
 }
-.table-danger{
+.table-danger {
   color: #ffffff !important;
   background-color: #a50b0b !important;
 }
-
 
 /* card style */
 .card {
@@ -80,13 +79,13 @@ th{
   /* color: var(--black) !important; */
   color: var(--white) !important;
 }
-.playstore-icon{
+.playstore-icon {
   width: 110px;
   height: 35px;
   border-radius: 50px !important;
 }
-.playstore-icon:hover{
- opacity: 0.5;
+.playstore-icon:hover {
+  opacity: 0.5;
 }
 
 .card-img-top {
@@ -109,7 +108,6 @@ th{
 }
 .btn-floating:hover {
   background-color: var(--lightgray) !important;
-
 }
 
 @media screen and (max-width: 991px) {
@@ -117,16 +115,16 @@ th{
     width: 200px !important;
     height: 200px !important;
   }
-   h1{
-   text-align: center;
-   } 
-   .p-para-1{
+  h1 {
     text-align: center;
-   }
-   .playstore-icon{
-    margin-bottom: 5px !important;
-   }
   }
+  .p-para-1 {
+    text-align: center;
+  }
+  .playstore-icon {
+    margin-bottom: 5px !important;
+  }
+}
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 50px !important;
@@ -154,5 +152,22 @@ th{
   --black: #000000;
   --gray: #121212;
   --white: #ffffff;
-  --lightgray:rgb(116, 113, 113);
+  --lightgray: rgb(116, 113, 113);
+}
+.gradient-border {
+  position: absolute;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(black),
+    to(#00000000)
+  );
+
+  padding: 5px;
+  z-index: 1;
+}
+.ratio {
+  /* border: 5px solid rgb(116, 1, 1); */
+  /* filter: blur(1px); */
 }

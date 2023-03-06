@@ -79,7 +79,7 @@ function addRow(props) {
   var cell1 = row.insertCell(0)
   var cell2 = row.insertCell(1)
   var cell3 = row.insertCell(2)
-  cell1.innerHTML = props.Position
+  cell1.innerHTML = props.Position + 1
   cell3.innerHTML = props.StatValue
   if (props.DisplayName) {
     cell2.innerHTML = props.DisplayName
