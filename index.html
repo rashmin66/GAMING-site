@@ -29,6 +29,11 @@
  <!-- <custom style sheet> -->
   <link rel="stylesheet" type="text/css" href="GamingSite.css"/>
 
+  <!-- play fab CDN -->
+  <script type="text/javascript" src="https://download.playfab.com/PlayFabClientApi.js"></script>
+    <!-- leader board js file -->
+  <script src="js/playfab.js"></script>
+
 </head>
 
 <body>
@@ -41,7 +46,7 @@
       <div class="container-sm">
     <!-- Navbar logo -->
         <div  id="header_LogoDiv" onclick="">
-        <img id="header_SubLogoImage" class="navbar-brand1 img-fluid"  src="./images/Neadlesack1.png" alt="Image">
+        <img id="header_SubLogoImage" class="navbar-brand1 img-fluid"  src="./images/Neadlesack1.webp" alt="Image">
         </div>
     
      <!-- Toggle button mobile view start -->
@@ -65,19 +70,19 @@
          
          <!-- <games> -->
             <li id="header_NavLink_2 " class="nav-item " onclick="">
-              <a id="header_SubNavLink_2" class="nav-link nav-link1 nav-one-link active " aria-current="page" href="#" ><p class="p-header-1 me-3">Games</p></a>
+              <a id="header_SubNavLink_2" class="nav-link nav-link1 nav-one-link active " aria-current="page" href="#play-button" ><p class="p-header-1 me-3">Games</p></a>
             </li>
 
          <!-- <pricing> -->
             <li id="header_NavLink_3 " class="nav-item" onclick="">
-              <a id="header_SubNavLink_3" class="nav-link nav-link1 nav-one-link active" href="#" ><p class="p-header-1 me-3">Pricing</p></a>
+              <a id="header_SubNavLink_3" class="nav-link nav-link1 nav-one-link active" href="#leader-board" ><p class="p-header-1 me-3">LeaderBoard</p></a>
             </li>
 
          <!-- button -->
             <li >
                <div class="col-sm-12 d-flex justify-content-center">
-                    <button id="header_Button_1" href="#"  type="button" class="btn btn-primary  btn-style ">
-                    Start</button>   
+                    <button id="header_Button_1" href="#play-button"  type="button" class="btn btn-primary  btn-style ">
+                    Play</button>   
                </div>    
             </li>
       
@@ -98,13 +103,13 @@
   <div class="col-lg-6">
     <h3 class="text-white"></h3>
      <h1 class="animate__animated animate__tada">Welcome to</h1>
-    <p class="p-para-1 text-white">We are the creators of real tuk racing and welcome you to our site. we are here to revolutioned the world.</p>
+    <p class="p-para-1 text-white">We are the creators of real tuk racing and welcome you to our site. we are here to revolutioned the gaming world.</p>
   </div>
   <!-- image slider start -->
   <div class="col-lg-6">
     <div id="intro-video-container">
       <video autoplay loop muted>
-    <source src="videos/intro.mp4" type="video/mp4">
+    <source src="videos/intro.webm" type="video/mp4">
   
       </video>
      </div>
@@ -114,9 +119,11 @@
 </section>
 <!-- home section end -->
 
+
 <!-- vedio section start -->
 <div class="vedio-container container-sm my-5">
 <div class="ratio ratio-16x9">
+  <div class="gradient-border"></div>
   <video autoplay loop muted>
     <source src="videos/game-intro.mp4" type="video/mp4">
   
@@ -126,8 +133,29 @@
 </div>
 <!-- vedio section end -->
 
+
+<!-- leader board table section -->
+<section id="leader-board" class="container-sm my-5 ">
+  <h2 class="text-white">Top Players This Week</h2>
+<table id="myTable" class="table table-leaderboard align-middle mb-0">
+		<thead>
+			<tr class="table-danger">
+				<th>Rank</th>
+				<th>Name</th>
+				<th>Coins</th>
+			</tr>
+		</thead>
+		<tbody>
+		
+		</tbody>
+	</table>
+  </section>
+  <!-- leader board section end -->
+
+
+
 <!-- card section start -->
-<section class="gameList container-sm my-5">
+<section id="play-button" class="gameList container-sm my-5">
   <h2 class="text-white">Games</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
