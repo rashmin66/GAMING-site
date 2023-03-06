@@ -53,7 +53,21 @@ h3 {
 
 /* vedio */
 
-
+/* leader board */
+.table-leaderboard{
+  color: #ffffff !important;
+}
+table{
+  color: #a50b0b !important;
+  border-color: #a50b0b !important;
+}
+th{
+  background-color: #a50b0b !important;
+}
+.table-danger{
+  color: #ffffff !important;
+  background-color: #a50b0b !important;
+}
 
 
 /* card style */
