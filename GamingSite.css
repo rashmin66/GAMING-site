@@ -162,8 +162,8 @@ th {
     from(black),
     to(#00000000)
   );
- 
 
+  height: 50%;
   padding: 5px;
   z-index: 1;
 }
