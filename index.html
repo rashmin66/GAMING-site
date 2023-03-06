@@ -67,15 +67,14 @@
         <div class="collapse navbar-collapse navbar-collapse1" id="header_ColSpaceDiv">    
         <div class="navbar-nav ms-auto me-3 mb-2 mb-lg-0" id="header_UnOderList_1">
             
-         
+         <!-- <leaderboard> -->
+            <li id="header_NavLink_3 " class="nav-item" onclick="">
+              <a id="header_SubNavLink_3" class="nav-link nav-link1 nav-one-link active" href="#leader-board" ><p class="p-header-1 me-3">LeaderBoard</p></a>
+            </li>
+
          <!-- <games> -->
             <li id="header_NavLink_2 " class="nav-item " onclick="">
               <a id="header_SubNavLink_2" class="nav-link nav-link1 nav-one-link active " aria-current="page" href="#play-button" ><p class="p-header-1 me-3">Games</p></a>
-            </li>
-
-         <!-- <pricing> -->
-            <li id="header_NavLink_3 " class="nav-item" onclick="">
-              <a id="header_SubNavLink_3" class="nav-link nav-link1 nav-one-link active" href="#leader-board" ><p class="p-header-1 me-3">LeaderBoard</p></a>
             </li>
 
          <!-- button -->
@@ -98,30 +97,48 @@
 
 
 <!-- home section start -->
-<section class="container-sm my-5 ">
-  <div class="row">
-  <div class="col-lg-6">
-    <h3 class="text-white"></h3>
-     <h1 class="animate__animated animate__tada">Welcome to</h1>
-    <p class="p-para-1 text-white">We are the creators of real tuk racing and welcome you to our site. we are here to revolutioned the gaming world.</p>
-  </div>
-  <!-- image slider start -->
-  <div class="col-lg-6">
-    <div id="intro-video-container">
-      <video autoplay loop muted>
-    <source src="videos/intro.webm" type="video/mp4">
-  
-      </video>
-     </div>
-   
 
+<!-- <desktop view home section start> -->
+<section class="container-sm my-5 d-none d-lg-block">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 class="animate__animated animate__tada">Welcome to</h1>
+     <p class="p-para-1 text-white">We are the creators of real tuk racing and welcome you to our site. we are here to revolutioned the gaming world.</p>
+    </div>
+  <!-- image slider start -->
+    <div class="col-md-6">
+     <div id="intro-video-container">
+      <video autoplay loop muted>
+       <source src="videos/intro.webm" type="video/mp4">
+      </video>
+     </div> 
+    </div>
   </div>
+</section>
+<!-- desktop view end -->
+
+<!-- mobile view home section start-->
+<section class="container-sm my-5 d-block d-lg-none">
+  <div class="row">
+      <h1 class="animate__animated animate__tada">Welcome to</h1>
+      <!-- image slider start -->
+       <div id="intro-video-container">
+        <video autoplay loop muted>
+         <source src="videos/intro.webm" type="video/mp4">
+        </video>
+      </div>
+      <!-- image slider end -->
+     <p class="p-para-1 text-white">We are the creators of real tuk racing and welcome you to our site. we are here to revolutioned the gaming world.</p>
+  </div>
+</section>
+<!-- mobile view end -->
+
 </section>
 <!-- home section end -->
 
 
 <!-- vedio section start -->
-<div class="vedio-container container-sm my-5">
+<div class="vedio vedio-container container-sm my-5">
 <div class="ratio ratio-16x9">
   <div class="gradient-border"></div>
   <video autoplay loop muted>
@@ -223,6 +240,7 @@
     </div> -->
   </div>
 </div>
+</div>
 
 </section>
 <!-- card section end -->
@@ -271,7 +289,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
+    © 2023 Copyright:
     <a class="text-white" href="https://Needlesack.art/">Needlesack.art</a>
   </div>
   <!-- Copyright -->
